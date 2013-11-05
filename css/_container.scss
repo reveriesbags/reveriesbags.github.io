@@ -1,0 +1,23 @@
+.container {
+	width: 100%;
+
+	h1 {
+		@media screen and (max-height: 20em) {
+			line-height: 20px;
+			margin-top: -8px;
+		}
+	}
+
+	.jumbotron {
+		border-radius: 0 !important;
+	}
+
+	@media screen and (min-width: $medium-bp) {
+		margin-bottom: 20px !important;
+	}
+
+	// Narrow container on large devices
+	@media screen and (min-width: 85em) {
+		max-width: 84em;
+	}
+}

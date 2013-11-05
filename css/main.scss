@@ -1,0 +1,105 @@
+@import "vars";
+@import "bootstrap";
+@import "lightbox";
+@import "container";
+
+img {
+	// Stop images from overflowing
+	max-width: 100%;
+}
+
+footer {
+	padding: 8px;
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 0;
+
+	@media screen and (min-width: $medium-bp) {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 19px;
+		color: #777;
+		border-top: 1px solid #E5E5E5;
+	}
+
+	// Same width as container
+	@extend .container;
+}
+
+.navbar {
+	.navbar-nav a {
+		-webkit-transition: color 0.2s ease-out;
+		-moz-transition: color 0.2s ease-out;
+		-ms-transition: color 0.2s ease-out;
+		-o-transition: color 0.2s ease-out;
+		transition: color 0.2s ease-out;
+	}
+}
+
+.center {
+	display: block;
+	margin: 0 auto 1em;
+}
+
+.lightbox-link {
+	&:hover, &:active {
+		outline: 2px rgb(25, 25, 255) solid;
+		outline: 2px rgba(25, 25, 255, 0.8) solid;
+	}
+}
+
+#lightbox {
+	.lb-outerContainer {
+		max-width: 100%;
+		height: auto !important;
+
+		img {
+			@extend .center;
+			display: block !important;
+		}
+
+		@media screen and (min-width: $medium-bp) {
+			width: 1024px !important;
+		}
+	}
+}
+
+#templateContainer {
+	div:first-child {
+		border-top: 0 !important;
+	}
+
+	> div {
+		border-top: 2px rgb(55, 55, 55) solid;
+		border-top: 2px rgba(55, 55, 55, 0.7) solid;
+
+		img {
+			@extend .center;
+			display: block !important;
+			@media screen and (min-width: $medium-bp) {
+				display: inline !important;
+				margin: 0;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	.name {
+		color: $brand-colour;
+		font-style: italic;
+	}
+
+	ul {
+		list-style: none;
+
+		@media screen and (max-width: $medium-bp) {
+			li {
+				text-align: center;
+			}
+
+			.desc {
+				font-style: italic;
+			}
+		}
+	}
+}

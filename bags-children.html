@@ -13,7 +13,7 @@
         <script src="js/vendor/ie.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body class="bags children">
       <nav class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -22,18 +22,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/"><img src="img/reve.png" height="20" alt="Logo"></a>
+          <a class="navbar-brand" href="/"><img src="img/reve.png" height="20"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home</a></li>
-            <li class="dropdown">
+            <li><a href="/">Home</a></li>
+            <li class="dropdown active">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collections <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="/bags-adults.html">Adult</a></li>
-                <li><a href="/bags-children.html">Children</a></li>
+                <li class="active"><a href="/bags-children.html">Children</a></li>
               </ul>
             </li>
             <li><a href="/events.html">Events</a></li>
@@ -50,38 +50,24 @@
       </nav>
 
       <div class="container">
-        <h1>Reveries</h1>
-
-        <div id="carousel-bags" class="carousel slide">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-bags" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-bags" data-slide-to="1"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="img/200.jpg" alt="undefined">
-              <div class="carousel-caption">
-                Bag 1
-              </div>
-            </div>
-            <div class="item">
-              <img src="img/200.jpg" alt="undefined">
-              <div class="carousel-caption">
-                Bag 2
-              </div>
-            </div>
-          </div>
-          <a class="left carousel-control" href="#carousel-bags" data-slide="prev">
-            <span class="icon-prev"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-bags" data-slide="next">
-            <span class="icon-next"></span>
-          </a>
-        </div><!-- /#carousel-bags -->
-
+        <h1>Adult bags</h1>
         <div class="jumbotron">
-          <h3 class="text-center">All of our handbags are handmade in England.</h3>
+          <section id="templateContainer">
+            <div class="row">
+              <h3 class="name"></h3>
+              <div class="col-md-5">
+                <a class="lightbox-link">
+                  <img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC" width="480" alt="undefined">
+                </a>
+              </div>
+              <ul class="col-md-7">
+                <li class="desc"></li>
+                <li>Width: <span class="width"></span>cm</li>
+                <li>Height: <span class="height"></span>cm</li>
+                <li>£<span class="price"></span></li>
+              </ul>
+            </div>
+          </section>
         </div><!-- /.jumbotron -->
       </div><!-- /.container -->
 
