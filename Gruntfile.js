@@ -65,7 +65,18 @@ module.exports = function( grunt ) {
 					style: 'compressed'
 				},
 				files: {
-					'css/main.css': 'css/main.scss'
+					'css/complete.css': 'css/main.scss'
+				}
+			}
+		},
+		uncss: {
+			dist: {
+				files: {
+					'css/main.css': [ 'index.html', 'bags-adults.html', 'events.html' ]
+				},
+				options: {
+					compress: true
+					// ,ignore: ['#added_at_runtime']
 				}
 			}
 		},
@@ -73,7 +84,7 @@ module.exports = function( grunt ) {
 			files: [ 'js/src/*.js', 'css/*.scss' ],
 			all: {
 				files: [ 'js/src/*.js', 'css/*.scss' ],
-				tasks: [ 'requirejs', 'sass' ]
+				tasks: [ 'requirejs', 'sass', 'uncss' ]
 			},
 			sass: {
 				files: [ 'css/*.scss' ],
@@ -86,12 +97,12 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
 	grunt.loadNpmTasks( 'grunt-contrib-requirejs' );
 	grunt.loadNpmTasks( 'grunt-contrib-sass' );
-	grunt.loadNpmTasks('grunt-responsive-images');
+	grunt.loadNpmTasks( 'grunt-responsive-images' );
+	grunt.loadNpmTasks( 'grunt-uncss' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 
 	// Tasks
 	grunt.registerTask( 'default', [ 'jshint', 'requirejs', 'sass' ] );
 	grunt.registerTask( 'w', [ 'watch:all' ] );
 	grunt.registerTask( 'sasswatch', [ 'watch:sass' ] );
-	grunt.registerTask( 'test', [ 'jshint', 'sass', 'qunit' ] );
 };
