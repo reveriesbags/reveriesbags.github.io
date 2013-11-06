@@ -65,21 +65,21 @@ module.exports = function( grunt ) {
 					style: 'compressed'
 				},
 				files: {
-					'css/complete.css': 'css/main.scss'
+					'css/main.css': 'css/main.scss'
 				}
 			}
 		},
-		uncss: {
+		/*uncss: {
 			dist: {
 				files: {
 					'css/main.css': [ 'index.html', 'bags-adults.html', 'events.html' ]
 				},
 				options: {
-					compress: true
-					// ,ignore: ['#added_at_runtime']
+					compress: true,
+					ignore: [ '.open', '.navbar-ex1-collapse', '.in', '.dropdown-toggle', '.dropdown-menu', '.lightboxOverlay' ]
 				}
 			}
-		},
+		},*/
 		watch: {
 			files: [ 'js/src/*.js', 'css/*.scss' ],
 			all: {
@@ -98,7 +98,7 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks( 'grunt-contrib-requirejs' );
 	grunt.loadNpmTasks( 'grunt-contrib-sass' );
 	grunt.loadNpmTasks( 'grunt-responsive-images' );
-	grunt.loadNpmTasks( 'grunt-uncss' );
+	// grunt.loadNpmTasks( 'grunt-uncss' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 
 	// Tasks
