@@ -13,9 +13,10 @@ module.exports = function( grunt ) {
 				quotmark: true,
 				trailing: true,
 				debug: true,
-				smarttabs: true
+				smarttabs: true,
+				es3: true
 			},
-			files: [ 'Gruntfile.js', 'js/src/main.js' ]
+			files: [ 'Gruntfile.js', 'js/src/main.js', 'templates/*.json' ]
 		},
 		requirejs: {
 			compile: {
