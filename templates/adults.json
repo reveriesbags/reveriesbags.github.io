@@ -1,23 +1,23 @@
 {
 	"bags": [
 		{
-			"name": "After The Rain",
-			"price": "50.00",
-			"desc": "Perfect with a jean",
-			"colour": "blue",
+			"name": "The Classic",
+			"price": "45.00",
+			"desc": "",
+			"colour": "light grey",
 			"width": "19",
-			"height": "13"
+			"height": "12.5"
 		},
 		{
-			"name": "Awaking",
+			"name": "After the Rain",
 			"price": "30.00",
-			"desc": "Perfect fit for mobile",
-			"colour": "green",
-			"width": "19",
-			"height": "13"
+			"desc": "",
+			"colour": "Jean",
+			"width": "17",
+			"height": "11.5"
 		},
 		{
-			"name": "On the Road to Mandalay",
+			"name": "Une chinoiserie",
 			"price": "95.00",
 			"desc": "Such powerful mane",
 			"colour": "brown",
@@ -25,12 +25,12 @@
 			"height": "13"
 		},
 		{
-			"name": "Mary Queen Of Scots",
-			"price": "95.00",
-			"desc": "Such powerful mane",
-			"colour": "green",
-			"width": "19",
-			"height": "13"
+			"name": "Silver bouquet",
+			"price": "35.00",
+			"desc": "",
+			"colour": "Electric blue and black",
+			"width": "17",
+			"height": "11.5"
 		},
 		{
 			"name": "The Visit",
@@ -40,165 +40,149 @@
 			"width": "19",
 			"height": "13"
 		},
-		{
-			"name": "The Classic",
-			"price": "45.00",
-			"desc": "Can accompany you at the theatre",
-			"colour": "grey",
-			"width": "19",
-			"height": "13"
-		},
-		{
-			"name": "Full bloom",
-			"price": "45.00",
-			"desc": "An homage to Mrs T",
-			"colour": "blue",
-			"width": "19",
-			"height": "13"
-		},
-		{
-			"name": "Une Chinoiserie",
-			"price": "35.00",
-			"desc": "Perfect fit for a BlackBerry",
-			"colour": "blue",
-			"width": "19",
-			"height": "13"
-		},
-		{
-			"name": "Silver Bouquet",
+			{
+			"name": "Papilloner",
 			"price": "35.00",
 			"desc": "",
-			"colour": "blue",
-			"width": "19",
-			"height": "13"
+			"colour": "light green",
+			"width": "18",
+			"height": "12.5"
 		},
 		{
-			"name": "Marie Antoinette",
-			"price": "40.00",
+			"name": "Awaking",
+			"price": "35.00",
 			"desc": "",
-			"colour": "black",
+			"colour": "green",
 			"width": "19",
-			"height": "13"
+			"height": "12.5"
+		},
+		{
+			"name": "Mary Queen of Scots",
+			"price": "45.00",
+			"desc": "",
+			"colour": "green",
+			"width": "26",
+			"height": "12.5"
 		},
 		{
 			"name": "Flower Baroque Ensemble",
 			"price": "45.00",
-			"desc": "Magnetic fastening",
+			"desc": "",
 			"colour": "green",
-			"width": "19",
-			"height": "13"
+			"width": "15",
+			"height": "10"
 		},
 		{
 			"name": "Take me to Aberdeen",
 			"price": "80.00",
-			"desc": "No thank you",
+			"desc": "",
 			"colour": "green",
 			"width": "19",
-			"height": "13"
+			"height": "12.5"
+		},
+		{
+			"name": "On the road to Mandalay",
+			"price": "110.00",
+			"desc": "",
+			"colour": "Earth brown",
+			"width": "25",
+			"height": "22"
 		},
 		{
 			"name": "Autumn",
 			"price": "50.00",
-			"desc": "Nothing",
+			"desc": "",
 			"colour": "brown",
 			"width": "19",
-			"height": "13"
+			"height": "12.5"
 		},
 		{
-			"name": "Le Rivage",
+			"name": "Los Americanos",
 			"price": "45.00",
-			"desc": "xxxx",
-			"colour": "Marine and White",
+			"desc": "",
+			"colour": "Brown",
 			"width": "19",
-			"height": "13"
+			"height": "12.5"
 		},
 		{
 			"name": "The Four Amulets",
 			"price": "45.00",
-			"desc": "Such powerful mane",
+			"desc": "",
 			"colour": "brown",
 			"width": "19",
-			"height": "13"
+			"height": "12.5"
 		},
 		{
 			"name": "Miss D",
 			"price": "45.00",
-			"desc": "xxxxx",
+			"desc": "",
 			"colour": "black",
-			"width": "xx",
-			"height": "xx"
+			"width": "18",
+			"height": "11"
 		},
 		{
 			"name": "Marie Antoinette",
 			"price": "45.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour": "black",
-			"width": "xx",
-			"height": "xx"
+			"width": "19",
+			"height": "12.5"
 		},
 		{
 			"name": "All For the Spark",
 			"price": "45.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour": "black",
-			"width": "xxx",
-			"height": "xxx"
+			"width": "19",
+			"height": "12.5"
 		},
 		{
-			"name": "Dinausore",
+			"name": "Dinosaure",
 			"price": "45.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour": "black",
-			"width": "xx",
-			"height": "xx"
+			"width": "19",
+			"height": "12.5"
 		},
 		{
 			"name": "Moonbada",
 			"price": "45.00",
-			"desc": "With golden shoulder handle",
+			"desc": "With golden chain shoulder handle",
 			"colour": "black",
-			"width": "xx",
-			"height": "xx"
+			"width": "18",
+			"height": "12"
 		},
 		{
 			"name": "Arabesque",
 			"price": "45.00",
-			"desc": "xxxx",
-			"colour": "black",
-			"width": "xx",
-			"height": "xx"
-		},
-		{
-			"name": "The Four Amulets",
-			"price": "45.00",
 			"desc": "",
 			"colour": "black",
-			"width": "xx",
-			"height": "xx"
+			"width": "19",
+			"height": "12.5"
 		},
-		{
+				{
 			"name": "Voyage En Inde",
-			"price": "With golden colour wrist handle",
-			"desc": "",
+			"price": "40.00",
+			"desc": "With golden colour chain wrist handle",
 			"colour": "black",
-			"width": "xx",
-			"height": "xx"
+			"width": "17",
+			"height": "11"
 		},
 		{
 			"name": "The Gamblers",
 			"price": "45.00",
 			"desc": "",
 			"colour": "black",
-			"width": "xxxx",
-			"height": "xxx"
+			"width": "15",
+			"height": "10.5"
 		},
 		{
 			"name": "Twins",
 			"price": "45.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour": "black",
-			"width": "xx",
-			"height": "xx"
+			"width": "19",
+			"height": "12.5"
 		}
 	]
 }
