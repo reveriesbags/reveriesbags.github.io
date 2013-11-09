@@ -12,7 +12,8 @@ module.exports = function( grunt ) {
 				eqeqeq: true,
 				quotmark: true,
 				trailing: true,
-				debug: true
+				debug: true,
+				smarttabs: true
 			},
 			files: [ 'Gruntfile.js', 'js/src/main.js' ]
 		},
@@ -23,7 +24,7 @@ module.exports = function( grunt ) {
 					paths: {
 						// Use CDN for jq
 						jquery: 'empty:',
-						bootstrap: '../vendor/bootstrap.min',
+						bootstrap: '../vendor/bootstrap-plugins',
 						lazyload: '../vendor/lazyload.min',
 						transparency: '../vendor/transparency.min',
 						lightbox: '../vendor/lightbox.min'
