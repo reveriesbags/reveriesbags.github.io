@@ -3,202 +3,202 @@
 		{
 			"name": "Little Bear",
 			"price": "35.00",
-			"desc": "xxxxxx",
+			"desc": "",
 			"colour": "Yellow",
-			"width": "xx",
-			"height": "xx"
+			"width": "14",
+			"height": "11"
 		},
 		{
 			"name": "Babouchka",
 			"price": "35.00",
-			"desc": "xxxxxxx",
+			"desc": "",
 			"colour": "Yellow & fuchsia",
-			"width": "xx",
-			"height": "xx"
+			"width": "13",
+			"height": "18"
 		},
 		{
 			"name": "Voyage En Inde",
 			"price": "35.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour": "Pink",
-			"width": "xx",
-			"height": "xx"
+			"width": "14",
+			"height": "12"
 		},
 		{
 			"name": "Under The Cherry Tree",
 			"price": "35.00",
-			"desc": "xxxxxx",
+			"desc": "",
 			"colour": "Pink & Indigo",
-			"width": "xx",
-			"height": "xx"
+			"width": "16",
+			"height": "12"
 		},
 		{
 			"name": "The Magic Tree",
 			"price": "35.00",
-			"desc": "xxxxxxx",
+			"desc": "",
 			"colour": "Indigo & purple",
-			"width": "xx",
-			"height": "xx"
+			"width": "15",
+			"height": "17"
 		},
 		{
 			"name": "MicMac",
 			"price": "35.00",
-			"desc": "xxxxx",
+			"desc": "",
 			"colour": "Fuchsia & red",
-			"width": "xxx",
-			"height": "xxx"
+			"width": "22",
+			"height": "20"
 		},
 		{
 			"name": "Walking The Duck",
 			"price": "35.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour":"Cherry",
-			"width": "xx",
-			"height": "xx"
+			"width": "17",
+			"height": "11"
 		},
 		{
 			"name": "Autumn leaf",
 			"price": "35.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour": "Cherry",
-			"width": "xx",
-			"height": "xx"
+			"width": "21",
+			"height": "14"
 		},
 		{
 			"name": "By the strawberries",
 			"price": "35.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour": "Blue & purple & rasberry",
-			"width": "xx",
-			"height": "xx"
+			"width": "17",
+			"height": "11"
 		},
 		{
 			"name": "Elephant Hiding Behind A Flower",
 			"price": "35.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour": "Cherry",
-			"width": "xx",
-			"height": "xx"
+			"width": "12",
+			"height": "15"
 		},
 		{
 			"name": "The rock star",
 			"price": "35.00",
-			"desc": "xxx",
+			"desc": "Jean Canvas",
 			"colour": "Jean",
-			"width": "xx",
-			"height": "xx"
+			"width": "18",
+			"height": "15"
 		},
 		{
 			"name": "Aquarium",
 			"price": "35.00",
 			"desc": "Two little pockets at the back",
 			"colour": "Lunar blue",
-			"width": "xx",
-			"height": "xxx"
+			"width": "14",
+			"height": "12"
 		},
 		{
 			"name": "Chinoiserie Kid",
 			"price": "35.00",
-			"desc": "Larger version for Mama is available",
+			"desc": "Larger version available under ladies collection",
 			"colour": "Deep blue",
-			"width": "xx",
-			"height": "xx"
+			"width": "12",
+			"height": "7"
 		},
 		{
 			"name": "The Pond",
 			"price": "35.00",
-			"desc": "xxxxx",
+			"desc": "",
 			"colour": "Jean blue",
-			"width": "xx",
-			"height": "xx"
+			"width": "15",
+			"height": "12"
 		},
 		{
 			"name": "The Three Coquettes",
 			"price": "35.00",
-			"desc": "xxxx",
+			"desc": "",
 			"colour": "Blue, white and kaki",
-			"width": "xx",
-			"height": "xx"
+			"width": "10",
+			"height": "9"
 		},
 		{
 			"name": "Via Tambouctou",
-			"price": "35.00",
+			"price": "45.00",
 			"desc": "The back hides a tortoise",
 			"colour": "Deep blue & kaki",
-			"width": "xx",
-			"height": "xx"
+			"width": "20",
+			"height": "15"
 		},
 		{
 			"name": "Prairie Circus",
 			"price": "35.00",
-			"desc": "Larger version for Mama is available",
-			"colour": "Deep blue",
-			"width": "xx",
-			"height": "xx"
+			"desc": "",
+			"colour": "Green grass",
+			"width": "14",
+			"height": "19"
 		},
 		{
 			"name": "Miss Attitude",
 			"price": "35.00",
-			"desc": "xxx",
+			"desc": "",
 			"colour": "Winter Coral",
-			"width": "xx",
-			"height": "xx"
+			"width": "14",
+			"height": "20"
 		},
 		{
 			"name": "Three papillons",
 			"price": "35.00",
-			"desc": "xxxxx",
+			"desc": "",
 			"colour": "Winter Coral",
-			"width": "xx",
-			"height": "xx"
+			"width": "16",
+			"height": "8"
 		},
 		{
 			"name": "Master of the house",
-			"price": "35.00",
-			"desc": "xxx",
+			"price": "55.00",
+			"desc": "",
 			"colour": "Earth brown",
-			"width": "xx",
-			"height": "xx"
+			"width": "17",
+			"height": "8"
 		},
 		{
 			"name": "Miss Coco Butterfly",
 			"price": "35.00",
-			"desc": "xxxxx",
+			"desc": "",
 			"colour": "Chocolate & orange spice",
-			"width": "xx",
-			"height": "xx"
+			"width": "20",
+			"height": "19"
 		},
 		{
 			"name": "All to the sea but the tortoise",
-			"price": "35.00",
-			"desc": "xxxxxx",
-			"colour": "Chocolat & rasberry",
-			"width": "xx",
-			"height": "xx"
+			"price": "45.00",
+			"desc": "Raspberry Purse included",
+			"colour": "Chocolate & raspberry",
+			"width": "20",
+			"height": "19"
 		},
 		{
 			"name": "Les Sioux",
-			"price": "35.00",
-			"desc": "xxxxx",
+			"price": "55.00",
+			"desc": "",
 			"colour": "Earth brown",
-			"width": "xx",
-			"height": "xx"
+			"width": "24",
+			"height": "15"
 		},
 		{
 			"name": "Dreaming",
 			"price": "35.00",
-			"desc": "xxxxx",
+			"desc": "",
 			"colour": "Warm grey",
-			"width": "xx",
-			"height": "xx"
+			"width": "17",
+			"height": "8"
 		},
 		{
 			"name": "In the Misty Garden",
 			"price": "35.00",
-			"desc": "xxxxx",
+			"desc": "",
 			"colour": "Warm grey",
-			"width": "xx",
-			"height": "xx"
+			"width": "15cm",
+			"height": "8"
 		}
 	]
 }
